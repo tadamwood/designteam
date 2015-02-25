@@ -1,4 +1,3 @@
-<?PHP
 
 <!DOCTYPE html>
 <html lang="en">
@@ -49,7 +48,3 @@
 			<!-- End Header Content -->
 			
 		</div>
-
-
-
-?>
