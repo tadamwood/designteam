@@ -144,6 +144,55 @@ left:0;
 				color: $light-grey;
 			}
 		}
+		#free-plan {
+			height:250px;
+			width:100%;
+			position:relative;
+			text-align:center;
+			background-color:$light-grey;
+			background:url('../img/60-lines.png') repeat;
+
+			h1 {
+				font-size:40px;
+				position:relative;
+				top:30px;
+				color:$dark-grey;
+			}
+			p {
+				font-size:25px;
+				position:relative;
+				top:50px;
+				color:$dark-grey;
+			}
+
+			form {
+				position:relative;
+				width:100%;
+				top:50px;
+
+				input[type="text"] {
+					width:380px;
+					height:50px;
+					border-radius:0;
+					outline:0 none;
+					padding:3px 3px 3px 20px;
+					font-size:20px;
+					line-height:23px;
+					color:$light-grey;
+					border:0px;
+				}
+
+				.button {
+					background:$green;
+					border:none;
+					height:50px;
+					width:150px;
+					font-size:20px;
+					color:$white;
+					margin:-2px 0 0 -4px;
+				}
+			}
+		}
 
 		//Hero Styles
 		#home-hero {
@@ -181,14 +230,83 @@ left:0;
 
 			text-align:center;
 
+			#home-about-img {
+				height:200px;
+				width:200px;
+				position:relative;
+				top:30px;
+
+				border-radius:100px;
+			}
+
 			p {
 				position:absolute;
 				color:$dark-grey;
 				width:60%;
 				left:20%;
+				margin-top:60px;
 
-				font-size:30px;
+				font-size:20px;
 				font-weight:$body-light;
+			}
+		}
+
+		#steps {
+			background:$dark-grey url() no-repeat;
+			background-color: $dark-grey;
+			color: $white;
+			width:100%;
+			height:600px;
+			position:relative;
+			text-align:center;
+			color:$green;
+
+			a {
+				color:$green;
+
+				&:hover {
+					color:$white;
+				}
+			}
+
+
+			.items {
+
+				h1 {
+					position: relative;
+					top:120px;
+					font-size:60px;
+					font-family:$head-font;
+				}
+
+				p {
+					position:relative;
+					top:250px;
+					font-size:36px;
+				}
+				.column {
+					margin-left:2%;
+				}
+
+			}
+		}
+
+		.section {
+			position:relative;
+			width:100%;
+			height:650px;
+			text-align:center;
+
+			p {
+				position: relative;
+				font-size:25px;
+				color:$dark-grey;
+				top:70px;
+			}
+
+			img {
+				position:relative;
+				top:115px;
 			}
 		}
 

@@ -245,7 +245,52 @@ body {
       text-align: center;
       font-size: 13px;
       color: #D7D7D7; }
-  /* line 149, ../sass/base/_base.scss */
+  /* line 147, ../sass/base/_base.scss */
+  #container #free-plan {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: #D7D7D7;
+    background: url("../img/60-lines.png") repeat; }
+    /* line 155, ../sass/base/_base.scss */
+    #container #free-plan h1 {
+      font-size: 40px;
+      position: relative;
+      top: 30px;
+      color: #2B2A2C; }
+    /* line 161, ../sass/base/_base.scss */
+    #container #free-plan p {
+      font-size: 25px;
+      position: relative;
+      top: 50px;
+      color: #2B2A2C; }
+    /* line 168, ../sass/base/_base.scss */
+    #container #free-plan form {
+      position: relative;
+      width: 100%;
+      top: 50px; }
+      /* line 173, ../sass/base/_base.scss */
+      #container #free-plan form input[type="text"] {
+        width: 380px;
+        height: 50px;
+        border-radius: 0;
+        outline: 0 none;
+        padding: 3px 3px 3px 20px;
+        font-size: 20px;
+        line-height: 23px;
+        color: #D7D7D7;
+        border: 0px; }
+      /* line 185, ../sass/base/_base.scss */
+      #container #free-plan form .button {
+        background: #A8C73F;
+        border: none;
+        height: 50px;
+        width: 150px;
+        font-size: 20px;
+        color: #FDFDFD;
+        margin: -2px 0 0 -4px; }
+  /* line 198, ../sass/base/_base.scss */
   #container #home-hero {
     background: #141318 url("../img/home_hero.jpg") no-repeat;
     height: 900px;
@@ -253,14 +298,14 @@ body {
     position: relative;
     font-size: 50px;
     font-weight: 300; }
-    /* line 158, ../sass/base/_base.scss */
+    /* line 207, ../sass/base/_base.scss */
     #container #home-hero .home-hero-tag {
       position: absolute;
       width: 500px;
       text-align: center;
       right: 0;
       top: 200px; }
-    /* line 166, ../sass/base/_base.scss */
+    /* line 215, ../sass/base/_base.scss */
     #container #home-hero .home-hero-start {
       position: absolute;
       right: 170px;
@@ -268,28 +313,82 @@ body {
       font-family: "Bad Script", cursive;
       font-size: 35px;
       color: #A8C73F; }
-  /* line 177, ../sass/base/_base.scss */
+  /* line 226, ../sass/base/_base.scss */
   #container #home-about {
     position: relative;
     height: 450px;
     width: 100%;
     text-align: center; }
-    /* line 184, ../sass/base/_base.scss */
+    /* line 233, ../sass/base/_base.scss */
+    #container #home-about #home-about-img {
+      height: 200px;
+      width: 200px;
+      position: relative;
+      top: 30px;
+      border-radius: 100px; }
+    /* line 242, ../sass/base/_base.scss */
     #container #home-about p {
       position: absolute;
       color: #2B2A2C;
       width: 60%;
       left: 20%;
-      font-size: 30px;
+      margin-top: 60px;
+      font-size: 20px;
       font-weight: 300; }
-  /* line 198, ../sass/base/_base.scss */
+  /* line 254, ../sass/base/_base.scss */
+  #container #steps {
+    background: #2B2A2C url() no-repeat;
+    background-color: #2B2A2C;
+    color: #FDFDFD;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    text-align: center;
+    color: #A8C73F; }
+    /* line 264, ../sass/base/_base.scss */
+    #container #steps a {
+      color: #A8C73F; }
+      /* line 267, ../sass/base/_base.scss */
+      #container #steps a:hover {
+        color: #FDFDFD; }
+    /* line 275, ../sass/base/_base.scss */
+    #container #steps .items h1 {
+      position: relative;
+      top: 120px;
+      font-size: 60px;
+      font-family: "Bad Script", cursive; }
+    /* line 282, ../sass/base/_base.scss */
+    #container #steps .items p {
+      position: relative;
+      top: 250px;
+      font-size: 36px; }
+    /* line 287, ../sass/base/_base.scss */
+    #container #steps .items .column {
+      margin-left: 2%; }
+  /* line 294, ../sass/base/_base.scss */
+  #container .section {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    text-align: center; }
+    /* line 300, ../sass/base/_base.scss */
+    #container .section p {
+      position: relative;
+      font-size: 25px;
+      color: #2B2A2C;
+      top: 70px; }
+    /* line 307, ../sass/base/_base.scss */
+    #container .section img {
+      position: relative;
+      top: 115px; }
+  /* line 316, ../sass/base/_base.scss */
   #container a {
     color: #FDFDFD;
     text-decoration: none; }
-    /* line 202, ../sass/base/_base.scss */
+    /* line 320, ../sass/base/_base.scss */
     #container a:hover {
       color: #A8C73F; }
-  /* line 207, ../sass/base/_base.scss */
+  /* line 325, ../sass/base/_base.scss */
   #container p {
     color: #FDFDFD; }
 
