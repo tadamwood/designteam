@@ -149,6 +149,7 @@ left:0;
 			width:100%;
 			position:relative;
 			text-align:center;
+			margin-top:100px;
 			background-color:$light-grey;
 			background:url('../img/60-lines.png') repeat;
 
@@ -310,9 +311,161 @@ left:0;
 			}
 		}
 
+		//Get Started Page Styles
+
+		
+		.get-started {
+			background:url('../img/get_started_hero.jpg') no-repeat;
+			background-size:cover;
+		}
+
+		#get-started {
+			position:relative;
+			width:100%;
+			height:500px;
+			margin-bottom:50px;
+
+
+			h1 {
+				position:relative;
+				font-family:$head-font;
+				font-size:60px;
+				color:$green;
+				text-align:center;
+				top:70px;
+				margin-bottom:125px;
+			}
+
+			h2, h3 {
+				position:relative;
+				font-size:30px;
+				margin-bottom:10px;
+				text-align:center;
+			}
+
+			p {
+				position:relative;
+				color:$dark-grey;
+				width:40%;
+				line-height:1.5;
+				margin-top:40px;
+				left:30%;
+			}
+		}
+
+		.inner-form {
+			position:relative;
+			height:530px;
+			width:100%;
+			background:url('../img/form_abs.jpg') no-repeat;
+			background-size:cover;
+
+			form {
+				top:60px;
+				position:relative;
+				width:50%;
+				margin:0 auto;
+				font-family:$body-font;
+
+				input[type="text"] {
+					position:relative;
+					height:50px;
+					width:100%;
+					font-size:16px;
+					border:none;
+					border-radius:0;
+				}
+
+				textarea {
+					position:relative;
+					width:100%;
+					height:150px;
+					font-size:16px;
+					font-family:$body-font;
+					max-height:150px;
+					max-width:100%;
+					border:none;
+					border-radius:0;
+				}
+
+				.help-now {
+					position:relative;
+					text-align:center;
+					top:30px;
+					padding:10px 20px;
+					border:2px solid $green;
+					color:$green;
+				}
+			}
+		}
+
+		//Eat Healthier Page Styles
+
+		.eat-healthier {
+			background:url('../img/eat_healthier_hero.jpg') no-repeat;
+			background-size:cover;
+		}
+
+		.eat-healthier-top {
+			position:relative;
+			top:100px;
+			width:100%;
+			height:auto;
+			margin-bottom:150px;
+
+			h1 {
+				position:relative;
+				text-align:center;
+				font-family:$head-font;
+				font-size:60px;
+
+				color:$green;
+			}
+			h2 {
+				position:relative;
+				text-align: center;
+				font-family:$body-font;
+				font-size:30px;
+				top:40px;
+			}
+			.eat-healthier-text {
+				position:relative;
+				width:40%;
+				left:30%;
+				margin-bottom:50px;
+				margin-top:100px;
+
+				p {
+					color:$dark-grey;
+				}
+			}
+			a {
+				color:$green;
+				position:relative;
+				left:40%;
+
+				.join-button {
+					position:relative;
+					color:$green;
+					border: 2px solid $green;
+					width:300px;
+					text-align:center;
+					padding:10px;
+					
+				}
+			}
+		}
+
 
 
 	//General Styles
+
+	.hero-inner {
+			position:relative;
+			height:400px;
+			width:100%;
+	}
+
 	a {
 		color:$white;
 		text-decoration:none;
