@@ -251,26 +251,27 @@ body {
     width: 100%;
     position: relative;
     text-align: center;
+    margin-top: 100px;
     background-color: #D7D7D7;
     background: url("../img/60-lines.png") repeat; }
-    /* line 155, ../sass/base/_base.scss */
+    /* line 156, ../sass/base/_base.scss */
     #container #free-plan h1 {
       font-size: 40px;
       position: relative;
       top: 30px;
       color: #2B2A2C; }
-    /* line 161, ../sass/base/_base.scss */
+    /* line 162, ../sass/base/_base.scss */
     #container #free-plan p {
       font-size: 25px;
       position: relative;
       top: 50px;
       color: #2B2A2C; }
-    /* line 168, ../sass/base/_base.scss */
+    /* line 169, ../sass/base/_base.scss */
     #container #free-plan form {
       position: relative;
       width: 100%;
       top: 50px; }
-      /* line 173, ../sass/base/_base.scss */
+      /* line 174, ../sass/base/_base.scss */
       #container #free-plan form input[type="text"] {
         width: 380px;
         height: 50px;
@@ -281,7 +282,7 @@ body {
         line-height: 23px;
         color: #D7D7D7;
         border: 0px; }
-      /* line 185, ../sass/base/_base.scss */
+      /* line 186, ../sass/base/_base.scss */
       #container #free-plan form .button {
         background: #A8C73F;
         border: none;
@@ -290,7 +291,7 @@ body {
         font-size: 20px;
         color: #FDFDFD;
         margin: -2px 0 0 -4px; }
-  /* line 198, ../sass/base/_base.scss */
+  /* line 199, ../sass/base/_base.scss */
   #container #home-hero {
     background: #141318 url("../img/home_hero.jpg") no-repeat;
     height: 900px;
@@ -298,14 +299,14 @@ body {
     position: relative;
     font-size: 50px;
     font-weight: 300; }
-    /* line 207, ../sass/base/_base.scss */
+    /* line 208, ../sass/base/_base.scss */
     #container #home-hero .home-hero-tag {
       position: absolute;
       width: 500px;
       text-align: center;
       right: 0;
       top: 200px; }
-    /* line 215, ../sass/base/_base.scss */
+    /* line 216, ../sass/base/_base.scss */
     #container #home-hero .home-hero-start {
       position: absolute;
       right: 170px;
@@ -313,20 +314,20 @@ body {
       font-family: "Bad Script", cursive;
       font-size: 35px;
       color: #A8C73F; }
-  /* line 226, ../sass/base/_base.scss */
+  /* line 227, ../sass/base/_base.scss */
   #container #home-about {
     position: relative;
     height: 450px;
     width: 100%;
     text-align: center; }
-    /* line 233, ../sass/base/_base.scss */
+    /* line 234, ../sass/base/_base.scss */
     #container #home-about #home-about-img {
       height: 200px;
       width: 200px;
       position: relative;
       top: 30px;
       border-radius: 100px; }
-    /* line 242, ../sass/base/_base.scss */
+    /* line 243, ../sass/base/_base.scss */
     #container #home-about p {
       position: absolute;
       color: #2B2A2C;
@@ -335,7 +336,7 @@ body {
       margin-top: 60px;
       font-size: 20px;
       font-weight: 300; }
-  /* line 254, ../sass/base/_base.scss */
+  /* line 255, ../sass/base/_base.scss */
   #container #steps {
     background: #2B2A2C url() no-repeat;
     background-color: #2B2A2C;
@@ -345,42 +346,43 @@ body {
     position: relative;
     text-align: center;
     color: #A8C73F; }
-    /* line 264, ../sass/base/_base.scss */
+    /* line 265, ../sass/base/_base.scss */
     #container #steps a {
       color: #A8C73F; }
-      /* line 267, ../sass/base/_base.scss */
+      /* line 268, ../sass/base/_base.scss */
       #container #steps a:hover {
         color: #FDFDFD; }
-    /* line 275, ../sass/base/_base.scss */
+    /* line 276, ../sass/base/_base.scss */
     #container #steps .items h1 {
       position: relative;
       top: 120px;
       font-size: 60px;
       font-family: "Bad Script", cursive; }
-    /* line 282, ../sass/base/_base.scss */
+    /* line 283, ../sass/base/_base.scss */
     #container #steps .items p {
       position: relative;
       top: 250px;
       font-size: 36px; }
-    /* line 287, ../sass/base/_base.scss */
+    /* line 288, ../sass/base/_base.scss */
     #container #steps .items .column {
       margin-left: 2%; }
-  /* line 294, ../sass/base/_base.scss */
+  /* line 295, ../sass/base/_base.scss */
   #container .section {
     position: relative;
     width: 100%;
     height: 650px;
     text-align: center; }
-    /* line 300, ../sass/base/_base.scss */
+    /* line 301, ../sass/base/_base.scss */
     #container .section p {
       position: relative;
       font-size: 25px;
       color: #2B2A2C;
       top: 70px; }
-    /* line 307, ../sass/base/_base.scss */
+    /* line 308, ../sass/base/_base.scss */
     #container .section img {
       position: relative;
       top: 115px; }
+<<<<<<< HEAD
   /* line 316, ../sass/base/_base.scss */
   #container .hero-refine {
     background: url(); }
@@ -452,6 +454,143 @@ body {
     #container a:hover {
       color: #A8C73F; }
   /* line 407, ../sass/base/_base.scss */
+=======
+  /* line 317, ../sass/base/_base.scss */
+  #container .get-started {
+    background: url("../img/get_started_hero.jpg") no-repeat;
+    background-size: cover; }
+  /* line 322, ../sass/base/_base.scss */
+  #container #get-started {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 50px; }
+    /* line 329, ../sass/base/_base.scss */
+    #container #get-started h1 {
+      position: relative;
+      font-family: "Bad Script", cursive;
+      font-size: 60px;
+      color: #A8C73F;
+      text-align: center;
+      top: 70px;
+      margin-bottom: 125px; }
+    /* line 339, ../sass/base/_base.scss */
+    #container #get-started h2, #container #get-started h3 {
+      position: relative;
+      font-size: 30px;
+      margin-bottom: 10px;
+      text-align: center; }
+    /* line 346, ../sass/base/_base.scss */
+    #container #get-started p {
+      position: relative;
+      color: #2B2A2C;
+      width: 40%;
+      line-height: 1.5;
+      margin-top: 40px;
+      left: 30%; }
+  /* line 356, ../sass/base/_base.scss */
+  #container .inner-form {
+    position: relative;
+    height: 530px;
+    width: 100%;
+    background: url("../img/form_abs.jpg") no-repeat;
+    background-size: cover; }
+    /* line 363, ../sass/base/_base.scss */
+    #container .inner-form form {
+      top: 60px;
+      position: relative;
+      width: 50%;
+      margin: 0 auto;
+      font-family: "Raleway", sans-serif; }
+      /* line 370, ../sass/base/_base.scss */
+      #container .inner-form form input[type="text"] {
+        position: relative;
+        height: 50px;
+        width: 100%;
+        font-size: 16px;
+        border: none;
+        border-radius: 0; }
+      /* line 379, ../sass/base/_base.scss */
+      #container .inner-form form textarea {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        font-size: 16px;
+        font-family: "Raleway", sans-serif;
+        max-height: 150px;
+        max-width: 100%;
+        border: none;
+        border-radius: 0; }
+      /* line 391, ../sass/base/_base.scss */
+      #container .inner-form form .help-now {
+        position: relative;
+        text-align: center;
+        top: 30px;
+        padding: 10px 20px;
+        border: 2px solid #A8C73F;
+        color: #A8C73F; }
+  /* line 404, ../sass/base/_base.scss */
+  #container .eat-healthier {
+    background: url("../img/eat_healthier_hero.jpg") no-repeat;
+    background-size: cover; }
+  /* line 409, ../sass/base/_base.scss */
+  #container .eat-healthier-top {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 150px; }
+    /* line 416, ../sass/base/_base.scss */
+    #container .eat-healthier-top h1 {
+      position: relative;
+      text-align: center;
+      font-family: "Bad Script", cursive;
+      font-size: 60px;
+      color: #A8C73F; }
+    /* line 424, ../sass/base/_base.scss */
+    #container .eat-healthier-top h2 {
+      position: relative;
+      text-align: center;
+      font-family: "Raleway", sans-serif;
+      font-size: 30px;
+      top: 40px; }
+    /* line 431, ../sass/base/_base.scss */
+    #container .eat-healthier-top .eat-healthier-text {
+      position: relative;
+      width: 40%;
+      left: 30%;
+      margin-bottom: 50px;
+      margin-top: 100px; }
+      /* line 438, ../sass/base/_base.scss */
+      #container .eat-healthier-top .eat-healthier-text p {
+        color: #2B2A2C; }
+    /* line 442, ../sass/base/_base.scss */
+    #container .eat-healthier-top a {
+      color: #A8C73F;
+      position: relative;
+      left: 40%; }
+      /* line 447, ../sass/base/_base.scss */
+      #container .eat-healthier-top a .join-button {
+        position: relative;
+        color: #A8C73F;
+        border: 2px solid #A8C73F;
+        width: 300px;
+        text-align: center;
+        padding: 10px; }
+  /* line 463, ../sass/base/_base.scss */
+  #container .hero-inner {
+    position: relative;
+    height: 400px;
+    width: 100%; }
+  /* line 469, ../sass/base/_base.scss */
+  #container a {
+    color: #FDFDFD;
+    text-decoration: none; }
+    /* line 473, ../sass/base/_base.scss */
+    #container a:hover {
+      color: #A8C73F; }
+  /* line 478, ../sass/base/_base.scss */
+>>>>>>> 61858124caf6b7ecb649bfbd5e66c5f422fdd08d
   #container p {
     color: #FDFDFD; }
 
