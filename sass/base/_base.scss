@@ -457,15 +457,99 @@ left:0;
 		}
 
 
+	//Refine Your Body Page Styles
+
+	.hero-refine {
+		background:url();
+	}
+
+	.center-container {
+		position:relative;
+		margin:0 auto;
+		width:50%;
+
+		h1 {
+			position:relative;
+			font-family:$head-font;
+			color:$green;
+			font-size:60px;
+			text-align: center;
+		}
+
+		h2 {
+			position:relative;
+			font-size:30px;
+			margin-top:50px;
+			color:$dark-grey;
+			text-align: center;
+		}
+
+		p {
+			position:relative;
+			margin-top:50px;
+			font-size:20px;
+			color:$dark-grey;
+		}
+
+		li {
+			list-style-type: disc;
+			line-height:2;
+		}
+
+		.flip-container {
+			position:relative;
+			width:100%;
+
+			.options {
+				position:relative;
+				width:49.7%;
+				float:left;
+				color:$white;
+				text-align:center;
+				padding:10px 0 10px 0;
+				border: 1px solid $green;
+				z-index:100;
+			}
+
+			#fit-options {
+				
+				background-color:$green;
+				
+			}
+
+			#flip-content {
+				position:relative;
+				margin-top:50px;
+				background:$light-grey;
+
+				#fit-content {
+				position:relative;
+				padding: 20px 10px;
+				margin-top:20px;
+			}
+			}
+
+			
+		}
+	}
+
+
 
 	//General Styles
 
+<<<<<<< HEAD
+	#hero {
+		height:400px;
+		width:100%;
+	}
+=======
 	.hero-inner {
 			position:relative;
 			height:400px;
 			width:100%;
 	}
 
+>>>>>>> 61858124caf6b7ecb649bfbd5e66c5f422fdd08d
 	a {
 		color:$white;
 		text-decoration:none;
