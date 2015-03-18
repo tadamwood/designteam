@@ -445,6 +445,63 @@ left:0;
 			}
 		}
 
+		// Specials Page Styles
+
+		.specials {
+			background:url('../img/specials_hero.jpg') no-repeat;
+			background-size: cover;
+		}
+		
+		#bbchallengelogo {
+			position:relative;
+			left:45%;
+			width:146px;
+			height:100px;
+		}
+
+		.special-offers {
+			background-color:$light-grey;
+			margin-bottom:70px;
+
+			h2 {
+				position:relative;
+				padding:10px;
+			}
+
+			.special-text {
+				color:$dark-grey;
+				padding:10px;
+			}
+
+			.shop {
+				position:relative;
+				text-align:center;
+				padding:10px;
+				width:100px;
+				border:1px solid $green;
+				color:$green;
+				float:right;
+				right:20px;
+			}
+
+			img {
+				width:100%;
+				height:auto;
+			}
+		}
+
+		.new-stuff {
+			position:relative;
+			text-align:center;
+			width:20%;
+			padding:10px;
+			color:$green;
+			border:1px solid $green;
+			margin:0 auto;
+			margin-bottom:70px
+		}
+
+
 		//Eat Healthier Page Styles
 
 		.eat-healthier {

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Bad+Script|Raleway:500,700,400,300);
-/* line 5, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,38 +21,38 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
@@ -244,14 +244,14 @@ body {
       width: 100%;
       text-align: center;
       font-size: 13px;
-      color: #D7D7D7; }
+      color: #ecf0f1; }
   /* line 147, ../sass/base/_base.scss */
   #container #free-plan {
     height: 250px;
     width: 100%;
     position: relative;
     text-align: center;
-    background-color: #D7D7D7;
+    background-color: #ecf0f1;
     background: url("../img/60-lines.png") repeat; }
     /* line 156, ../sass/base/_base.scss */
     #container #free-plan h1 {
@@ -279,7 +279,7 @@ body {
         padding: 3px 3px 3px 20px;
         font-size: 20px;
         line-height: 23px;
-        color: #D7D7D7;
+        color: #ecf0f1;
         border: 0px; }
       /* line 186, ../sass/base/_base.scss */
       #container #free-plan form .button {
@@ -493,46 +493,92 @@ body {
           color: #FDFDFD;
           border: 1px solid #A8C73F; }
   /* line 450, ../sass/base/_base.scss */
+  #container .specials {
+    background: url("../img/specials_hero.jpg") no-repeat;
+    background-size: cover; }
+  /* line 455, ../sass/base/_base.scss */
+  #container #bbchallengelogo {
+    position: relative;
+    left: 45%;
+    width: 146px;
+    height: 100px; }
+  /* line 462, ../sass/base/_base.scss */
+  #container .special-offers {
+    background-color: #ecf0f1;
+    margin-bottom: 70px; }
+    /* line 466, ../sass/base/_base.scss */
+    #container .special-offers h2 {
+      position: relative;
+      padding: 10px; }
+    /* line 471, ../sass/base/_base.scss */
+    #container .special-offers .special-text {
+      color: #2B2A2C;
+      padding: 10px; }
+    /* line 476, ../sass/base/_base.scss */
+    #container .special-offers .shop {
+      position: relative;
+      text-align: center;
+      padding: 10px;
+      width: 100px;
+      border: 1px solid #A8C73F;
+      color: #A8C73F;
+      float: right;
+      right: 20px; }
+    /* line 487, ../sass/base/_base.scss */
+    #container .special-offers img {
+      width: 100%;
+      height: auto; }
+  /* line 493, ../sass/base/_base.scss */
+  #container .new-stuff {
+    position: relative;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    color: #A8C73F;
+    border: 1px solid #A8C73F;
+    margin: 0 auto;
+    margin-bottom: 70px; }
+  /* line 507, ../sass/base/_base.scss */
   #container .eat-healthier {
     background: url("../img/eat_healthier_hero.jpg") no-repeat;
     background-size: cover; }
-  /* line 455, ../sass/base/_base.scss */
+  /* line 512, ../sass/base/_base.scss */
   #container .eat-healthier-top {
     position: relative;
     top: 100px;
     width: 100%;
     height: auto;
     margin-bottom: 150px; }
-    /* line 462, ../sass/base/_base.scss */
+    /* line 519, ../sass/base/_base.scss */
     #container .eat-healthier-top h1 {
       position: relative;
       text-align: center;
       font-family: "Bad Script", cursive;
       font-size: 60px;
       color: #A8C73F; }
-    /* line 470, ../sass/base/_base.scss */
+    /* line 527, ../sass/base/_base.scss */
     #container .eat-healthier-top h2 {
       position: relative;
       text-align: center;
       font-family: "Raleway", sans-serif;
       font-size: 30px;
       top: 40px; }
-    /* line 477, ../sass/base/_base.scss */
+    /* line 534, ../sass/base/_base.scss */
     #container .eat-healthier-top .eat-healthier-text {
       position: relative;
       width: 40%;
       left: 30%;
       margin-bottom: 50px;
       margin-top: 100px; }
-      /* line 484, ../sass/base/_base.scss */
+      /* line 541, ../sass/base/_base.scss */
       #container .eat-healthier-top .eat-healthier-text p {
         color: #2B2A2C; }
-    /* line 488, ../sass/base/_base.scss */
+    /* line 545, ../sass/base/_base.scss */
     #container .eat-healthier-top a {
       color: #A8C73F;
       position: relative;
       left: 40%; }
-      /* line 493, ../sass/base/_base.scss */
+      /* line 550, ../sass/base/_base.scss */
       #container .eat-healthier-top a .join-button {
         position: relative;
         color: #A8C73F;
@@ -540,16 +586,16 @@ body {
         width: 300px;
         text-align: center;
         padding: 10px; }
-  /* line 508, ../sass/base/_base.scss */
+  /* line 565, ../sass/base/_base.scss */
   #container .hero-refine {
     background: url("../img/refine_body_hero.jpg") no-repeat;
     background-size: cover; }
-  /* line 513, ../sass/base/_base.scss */
+  /* line 570, ../sass/base/_base.scss */
   #container .center-container {
     position: relative;
     margin: 0 auto;
     width: 50%; }
-    /* line 518, ../sass/base/_base.scss */
+    /* line 575, ../sass/base/_base.scss */
     #container .center-container h1 {
       position: relative;
       font-family: "Bad Script", cursive;
@@ -557,28 +603,28 @@ body {
       font-size: 60px;
       text-align: center;
       margin-top: 100px; }
-    /* line 527, ../sass/base/_base.scss */
+    /* line 584, ../sass/base/_base.scss */
     #container .center-container h2 {
       position: relative;
       font-size: 30px;
       margin-top: 50px;
       color: #2B2A2C;
       text-align: center; }
-    /* line 535, ../sass/base/_base.scss */
+    /* line 592, ../sass/base/_base.scss */
     #container .center-container .refine-para {
       position: relative;
       margin-top: 50px;
       font-size: 20px;
       color: #2B2A2C; }
-    /* line 542, ../sass/base/_base.scss */
+    /* line 599, ../sass/base/_base.scss */
     #container .center-container li {
       list-style-type: disc;
       line-height: 2; }
-    /* line 547, ../sass/base/_base.scss */
+    /* line 604, ../sass/base/_base.scss */
     #container .center-container .flip-container {
       position: relative;
       width: 100%; }
-      /* line 551, ../sass/base/_base.scss */
+      /* line 608, ../sass/base/_base.scss */
       #container .center-container .flip-container .options {
         position: relative;
         width: 49.68%;
@@ -588,25 +634,25 @@ body {
         padding: 10px 0 10px 0;
         border: 1px solid #A8C73F;
         z-index: 100; }
-      /* line 562, ../sass/base/_base.scss */
+      /* line 619, ../sass/base/_base.scss */
       #container .center-container .flip-container #fit-options {
         background-color: #A8C73F; }
-      /* line 568, ../sass/base/_base.scss */
+      /* line 625, ../sass/base/_base.scss */
       #container .center-container .flip-container #flip-content {
         position: relative;
         top: 38px;
-        background: #D7D7D7;
+        background: #ecf0f1;
         padding: 30px;
         height: auto; }
-        /* line 575, ../sass/base/_base.scss */
+        /* line 632, ../sass/base/_base.scss */
         #container .center-container .flip-container #flip-content p {
           color: #2B2A2C; }
-      /* line 580, ../sass/base/_base.scss */
+      /* line 637, ../sass/base/_base.scss */
       #container .center-container .flip-container h4 {
         position: relative;
         margin-top: 70px;
         text-align: center; }
-      /* line 586, ../sass/base/_base.scss */
+      /* line 643, ../sass/base/_base.scss */
       #container .center-container .flip-container #watch {
         position: relative;
         width: 200px;
@@ -614,23 +660,23 @@ body {
         padding: 20px 40px;
         text-align: center;
         background-color: #A8C73F; }
-  /* line 604, ../sass/base/_base.scss */
+  /* line 661, ../sass/base/_base.scss */
   #container #hero {
     height: 400px;
     width: 100%; }
-  /* line 609, ../sass/base/_base.scss */
+  /* line 666, ../sass/base/_base.scss */
   #container .hero-inner {
     position: relative;
     height: 400px;
     width: 100%; }
-  /* line 616, ../sass/base/_base.scss */
+  /* line 673, ../sass/base/_base.scss */
   #container a {
     color: #FDFDFD;
     text-decoration: none; }
-    /* line 620, ../sass/base/_base.scss */
+    /* line 677, ../sass/base/_base.scss */
     #container a:hover {
       color: #A8C73F; }
-  /* line 625, ../sass/base/_base.scss */
+  /* line 682, ../sass/base/_base.scss */
   #container p {
     color: #FDFDFD; }
 
