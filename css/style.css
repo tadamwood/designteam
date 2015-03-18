@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Bad+Script|Raleway:500,700,400,300);
-/* line 5, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,38 +21,38 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
@@ -204,7 +204,7 @@ body {
         margin-right: 8px; }
   /* line 101, ../sass/base/_base.scss */
   #container #footer {
-    background: #141318 url("../img/footer_bg.png") no-repeat;
+    background: #141318 url("../img/footer.jpg") no-repeat;
     background-size: cover;
     position: relative;
     width: 100%;
@@ -251,7 +251,6 @@ body {
     width: 100%;
     position: relative;
     text-align: center;
-    margin-top: 100px;
     background-color: #D7D7D7;
     background: url("../img/60-lines.png") repeat; }
     /* line 156, ../sass/base/_base.scss */
@@ -382,90 +381,25 @@ body {
     #container .section img {
       position: relative;
       top: 115px; }
-<<<<<<< HEAD
-  /* line 316, ../sass/base/_base.scss */
-  #container .hero-refine {
-    background: url(); }
-  /* line 320, ../sass/base/_base.scss */
-  #container .center-container {
-    position: relative;
-    margin: 0 auto;
-    width: 50%; }
-    /* line 325, ../sass/base/_base.scss */
-    #container .center-container h1 {
-      position: relative;
-      font-family: "Bad Script", cursive;
-      color: #A8C73F;
-      font-size: 60px;
-      text-align: center; }
-    /* line 333, ../sass/base/_base.scss */
-    #container .center-container h2 {
-      position: relative;
-      font-size: 30px;
-      margin-top: 50px;
-      color: #2B2A2C;
-      text-align: center; }
-    /* line 341, ../sass/base/_base.scss */
-    #container .center-container p {
-      position: relative;
-      margin-top: 50px;
-      font-size: 20px;
-      color: #2B2A2C; }
-    /* line 348, ../sass/base/_base.scss */
-    #container .center-container li {
-      list-style-type: disc;
-      line-height: 2; }
-    /* line 353, ../sass/base/_base.scss */
-    #container .center-container .flip-container {
-      position: relative;
-      width: 100%; }
-      /* line 357, ../sass/base/_base.scss */
-      #container .center-container .flip-container .options {
-        position: relative;
-        width: 49.7%;
-        float: left;
-        color: #FDFDFD;
-        text-align: center;
-        padding: 10px 0 10px 0;
-        border: 1px solid #A8C73F;
-        z-index: 100; }
-      /* line 368, ../sass/base/_base.scss */
-      #container .center-container .flip-container #fit-options {
-        background-color: #A8C73F; }
-      /* line 374, ../sass/base/_base.scss */
-      #container .center-container .flip-container #flip-content {
-        position: relative;
-        margin-top: 50px;
-        background: #D7D7D7; }
-        /* line 379, ../sass/base/_base.scss */
-        #container .center-container .flip-container #flip-content #fit-content {
-          position: relative;
-          padding: 20px 10px;
-          margin-top: 20px; }
-  /* line 394, ../sass/base/_base.scss */
-  #container #hero {
-    height: 400px;
-    width: 100%; }
-  /* line 398, ../sass/base/_base.scss */
-  #container a {
-    color: #FDFDFD;
-    text-decoration: none; }
-    /* line 402, ../sass/base/_base.scss */
-    #container a:hover {
-      color: #A8C73F; }
-  /* line 407, ../sass/base/_base.scss */
-=======
   /* line 317, ../sass/base/_base.scss */
   #container .get-started {
     background: url("../img/get_started_hero.jpg") no-repeat;
     background-size: cover; }
   /* line 322, ../sass/base/_base.scss */
+  #container .coaching {
+    background: url("../img/coaching_hero.jpg.") no-repeat;
+    background-size: cover; }
+  /* line 327, ../sass/base/_base.scss */
+  #container .contact {
+    background: url(../img/contact_hero.jpg) no-repeat;
+    background-size: cover; }
+  /* line 332, ../sass/base/_base.scss */
   #container #get-started {
     position: relative;
     width: 100%;
-    height: 500px;
-    margin-bottom: 50px; }
-    /* line 329, ../sass/base/_base.scss */
+    height: auto;
+    margin-bottom: 5%; }
+    /* line 339, ../sass/base/_base.scss */
     #container #get-started h1 {
       position: relative;
       font-family: "Bad Script", cursive;
@@ -474,13 +408,13 @@ body {
       text-align: center;
       top: 70px;
       margin-bottom: 125px; }
-    /* line 339, ../sass/base/_base.scss */
+    /* line 349, ../sass/base/_base.scss */
     #container #get-started h2, #container #get-started h3 {
       position: relative;
       font-size: 30px;
       margin-bottom: 10px;
       text-align: center; }
-    /* line 346, ../sass/base/_base.scss */
+    /* line 356, ../sass/base/_base.scss */
     #container #get-started p {
       position: relative;
       color: #2B2A2C;
@@ -488,21 +422,21 @@ body {
       line-height: 1.5;
       margin-top: 40px;
       left: 30%; }
-  /* line 356, ../sass/base/_base.scss */
+  /* line 366, ../sass/base/_base.scss */
   #container .inner-form {
     position: relative;
     height: 530px;
     width: 100%;
     background: url("../img/form_abs.jpg") no-repeat;
     background-size: cover; }
-    /* line 363, ../sass/base/_base.scss */
+    /* line 373, ../sass/base/_base.scss */
     #container .inner-form form {
       top: 60px;
       position: relative;
       width: 50%;
       margin: 0 auto;
       font-family: "Raleway", sans-serif; }
-      /* line 370, ../sass/base/_base.scss */
+      /* line 380, ../sass/base/_base.scss */
       #container .inner-form form input[type="text"] {
         position: relative;
         height: 50px;
@@ -510,7 +444,7 @@ body {
         font-size: 16px;
         border: none;
         border-radius: 0; }
-      /* line 379, ../sass/base/_base.scss */
+      /* line 389, ../sass/base/_base.scss */
       #container .inner-form form textarea {
         position: relative;
         width: 100%;
@@ -521,7 +455,7 @@ body {
         max-width: 100%;
         border: none;
         border-radius: 0; }
-      /* line 391, ../sass/base/_base.scss */
+      /* line 401, ../sass/base/_base.scss */
       #container .inner-form form .help-now {
         position: relative;
         text-align: center;
@@ -529,47 +463,76 @@ body {
         padding: 10px 20px;
         border: 2px solid #A8C73F;
         color: #A8C73F; }
-  /* line 404, ../sass/base/_base.scss */
+  /* line 414, ../sass/base/_base.scss */
+  #container #contact {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%; }
+    /* line 420, ../sass/base/_base.scss */
+    #container #contact h1 {
+      text-align: center;
+      font-family: "Bad Script", cursive;
+      font-size: 60px;
+      color: #A8C73F;
+      margin-top: 100px; }
+    /* line 428, ../sass/base/_base.scss */
+    #container #contact .fork {
+      position: relative;
+      margin-top: 75px; }
+      /* line 432, ../sass/base/_base.scss */
+      #container #contact .fork .fork-trio {
+        width: 30%;
+        height: 300px;
+        border: 1px solid #2B2A2C;
+        color: #2B2A2C;
+        padding: 50px 20px; }
+        /* line 439, ../sass/base/_base.scss */
+        #container #contact .fork .fork-trio:hover {
+          background-color: #A8C73F;
+          color: #FDFDFD;
+          border: 1px solid #A8C73F; }
+  /* line 450, ../sass/base/_base.scss */
   #container .eat-healthier {
     background: url("../img/eat_healthier_hero.jpg") no-repeat;
     background-size: cover; }
-  /* line 409, ../sass/base/_base.scss */
+  /* line 455, ../sass/base/_base.scss */
   #container .eat-healthier-top {
     position: relative;
     top: 100px;
     width: 100%;
     height: auto;
     margin-bottom: 150px; }
-    /* line 416, ../sass/base/_base.scss */
+    /* line 462, ../sass/base/_base.scss */
     #container .eat-healthier-top h1 {
       position: relative;
       text-align: center;
       font-family: "Bad Script", cursive;
       font-size: 60px;
       color: #A8C73F; }
-    /* line 424, ../sass/base/_base.scss */
+    /* line 470, ../sass/base/_base.scss */
     #container .eat-healthier-top h2 {
       position: relative;
       text-align: center;
       font-family: "Raleway", sans-serif;
       font-size: 30px;
       top: 40px; }
-    /* line 431, ../sass/base/_base.scss */
+    /* line 477, ../sass/base/_base.scss */
     #container .eat-healthier-top .eat-healthier-text {
       position: relative;
       width: 40%;
       left: 30%;
       margin-bottom: 50px;
       margin-top: 100px; }
-      /* line 438, ../sass/base/_base.scss */
+      /* line 484, ../sass/base/_base.scss */
       #container .eat-healthier-top .eat-healthier-text p {
         color: #2B2A2C; }
-    /* line 442, ../sass/base/_base.scss */
+    /* line 488, ../sass/base/_base.scss */
     #container .eat-healthier-top a {
       color: #A8C73F;
       position: relative;
       left: 40%; }
-      /* line 447, ../sass/base/_base.scss */
+      /* line 493, ../sass/base/_base.scss */
       #container .eat-healthier-top a .join-button {
         position: relative;
         color: #A8C73F;
@@ -577,20 +540,97 @@ body {
         width: 300px;
         text-align: center;
         padding: 10px; }
-  /* line 463, ../sass/base/_base.scss */
+  /* line 508, ../sass/base/_base.scss */
+  #container .hero-refine {
+    background: url("../img/refine_body_hero.jpg") no-repeat;
+    background-size: cover; }
+  /* line 513, ../sass/base/_base.scss */
+  #container .center-container {
+    position: relative;
+    margin: 0 auto;
+    width: 50%; }
+    /* line 518, ../sass/base/_base.scss */
+    #container .center-container h1 {
+      position: relative;
+      font-family: "Bad Script", cursive;
+      color: #A8C73F;
+      font-size: 60px;
+      text-align: center;
+      margin-top: 100px; }
+    /* line 527, ../sass/base/_base.scss */
+    #container .center-container h2 {
+      position: relative;
+      font-size: 30px;
+      margin-top: 50px;
+      color: #2B2A2C;
+      text-align: center; }
+    /* line 535, ../sass/base/_base.scss */
+    #container .center-container .refine-para {
+      position: relative;
+      margin-top: 50px;
+      font-size: 20px;
+      color: #2B2A2C; }
+    /* line 542, ../sass/base/_base.scss */
+    #container .center-container li {
+      list-style-type: disc;
+      line-height: 2; }
+    /* line 547, ../sass/base/_base.scss */
+    #container .center-container .flip-container {
+      position: relative;
+      width: 100%; }
+      /* line 551, ../sass/base/_base.scss */
+      #container .center-container .flip-container .options {
+        position: relative;
+        width: 49.68%;
+        float: left;
+        color: #FDFDFD;
+        text-align: center;
+        padding: 10px 0 10px 0;
+        border: 1px solid #A8C73F;
+        z-index: 100; }
+      /* line 562, ../sass/base/_base.scss */
+      #container .center-container .flip-container #fit-options {
+        background-color: #A8C73F; }
+      /* line 568, ../sass/base/_base.scss */
+      #container .center-container .flip-container #flip-content {
+        position: relative;
+        top: 38px;
+        background: #D7D7D7;
+        padding: 30px;
+        height: auto; }
+        /* line 575, ../sass/base/_base.scss */
+        #container .center-container .flip-container #flip-content p {
+          color: #2B2A2C; }
+      /* line 580, ../sass/base/_base.scss */
+      #container .center-container .flip-container h4 {
+        position: relative;
+        margin-top: 70px;
+        text-align: center; }
+      /* line 586, ../sass/base/_base.scss */
+      #container .center-container .flip-container #watch {
+        position: relative;
+        width: 200px;
+        margin: 30px auto;
+        padding: 20px 40px;
+        text-align: center;
+        background-color: #A8C73F; }
+  /* line 604, ../sass/base/_base.scss */
+  #container #hero {
+    height: 400px;
+    width: 100%; }
+  /* line 609, ../sass/base/_base.scss */
   #container .hero-inner {
     position: relative;
     height: 400px;
     width: 100%; }
-  /* line 469, ../sass/base/_base.scss */
+  /* line 616, ../sass/base/_base.scss */
   #container a {
     color: #FDFDFD;
     text-decoration: none; }
-    /* line 473, ../sass/base/_base.scss */
+    /* line 620, ../sass/base/_base.scss */
     #container a:hover {
       color: #A8C73F; }
-  /* line 478, ../sass/base/_base.scss */
->>>>>>> 61858124caf6b7ecb649bfbd5e66c5f422fdd08d
+  /* line 625, ../sass/base/_base.scss */
   #container p {
     color: #FDFDFD; }
 

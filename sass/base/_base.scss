@@ -99,7 +99,7 @@ left:0;
 
 	//Footer Styles
 		#footer {
-			background:$black url('../img/footer_bg.png') no-repeat;
+			background:$black url('../img/footer.jpg') no-repeat;
 			background-size:cover;
 			position:relative;
 			width:100%;
@@ -149,7 +149,7 @@ left:0;
 			width:100%;
 			position:relative;
 			text-align:center;
-			margin-top:100px;
+			// margin-top:100px;
 			background-color:$light-grey;
 			background:url('../img/60-lines.png') repeat;
 
@@ -319,11 +319,21 @@ left:0;
 			background-size:cover;
 		}
 
+		.coaching {
+			background: url('../img/coaching_hero.jpg.') no-repeat;
+			background-size:cover;
+		}
+
+		.contact {
+			background:url(../img/contact_hero.jpg) no-repeat;
+			background-size: cover;
+		}
+
 		#get-started {
 			position:relative;
 			width:100%;
-			height:500px;
-			margin-bottom:50px;
+			height:auto;
+			margin-bottom:5%;
 
 
 			h1 {
@@ -399,6 +409,42 @@ left:0;
 			}
 		}
 
+		//Contact Page Styles
+
+		#contact {
+			position:relative;
+			width:100%;
+			height:auto;
+			margin-bottom:5%;
+
+			h1 {
+				text-align:center;
+				font-family: $head-font;
+				font-size:60px;
+				color:$green;
+				margin-top:100px;
+			}
+
+			.fork {
+				position:relative;
+				margin-top:75px;
+
+				.fork-trio {
+					width:30%;
+					height: 300px;
+					border: 1px solid $dark-grey;
+					color:$dark-grey;
+					padding: 50px 20px;
+
+					&:hover {
+						background-color:$green;
+						color:$white;
+						border: 1px solid $green;
+					}
+				}
+			}
+		}
+
 		//Eat Healthier Page Styles
 
 		.eat-healthier {
@@ -460,7 +506,8 @@ left:0;
 	//Refine Your Body Page Styles
 
 	.hero-refine {
-		background:url();
+		background:url('../img/refine_body_hero.jpg') no-repeat;
+		background-size:cover;
 	}
 
 	.center-container {
@@ -474,6 +521,7 @@ left:0;
 			color:$green;
 			font-size:60px;
 			text-align: center;
+			margin-top:100px;
 		}
 
 		h2 {
@@ -484,7 +532,7 @@ left:0;
 			text-align: center;
 		}
 
-		p {
+		.refine-para {
 			position:relative;
 			margin-top:50px;
 			font-size:20px;
@@ -502,7 +550,7 @@ left:0;
 
 			.options {
 				position:relative;
-				width:49.7%;
+				width:49.68%;
 				float:left;
 				color:$white;
 				text-align:center;
@@ -519,14 +567,29 @@ left:0;
 
 			#flip-content {
 				position:relative;
-				margin-top:50px;
+				top:38px;
 				background:$light-grey;
+				padding:30px;
+				height:auto;
 
-				#fit-content {
-				position:relative;
-				padding: 20px 10px;
-				margin-top:20px;
+				p {
+					color:$dark-grey;
+				}
 			}
+
+			h4 {
+				position:relative;
+				margin-top:70px;
+				text-align:center;
+			}
+
+			#watch {
+				position:relative;
+				width:200px;
+				margin:30px auto;
+				padding:20px 40px;
+				text-align:center;
+				background-color:$green;
 			}
 
 			
@@ -537,19 +600,19 @@ left:0;
 
 	//General Styles
 
-<<<<<<< HEAD
+
 	#hero {
 		height:400px;
 		width:100%;
 	}
-=======
+
 	.hero-inner {
 			position:relative;
 			height:400px;
 			width:100%;
 	}
 
->>>>>>> 61858124caf6b7ecb649bfbd5e66c5f422fdd08d
+
 	a {
 		color:$white;
 		text-decoration:none;
