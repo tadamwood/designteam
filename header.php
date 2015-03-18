@@ -36,13 +36,13 @@
 			<!-- <img src="#" alt="Michele Martin Logo"> -->
 			<div class="navlist">
 				<ul>
-					<li><a href="about.html">About</a></li>
-					<li><a href="refine-your-body.html">Refine Your Body</a></li>
-					<li><a href="get-started.html">Get Started</a></li>
-					<li><a href="eat-healthier.html">Eat Healthier</a></li>
-					<li><a href="specials.html">October Specials</a></li>
-					<li><a href="coaching.html">Coaching</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="refine-your-body.php">Refine Your Body</a></li>
+					<li><a href="get-started.php">Get Started</a></li>
+					<li><a href="eat-healthier.php">Eat Healthier</a></li>
+					<li><a href="specials.php">October Specials</a></li>
+					<li><a href="coaching.php">Coaching</a></li>
+					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</div>
 			<!-- End Header Content -->
