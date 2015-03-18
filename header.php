@@ -29,10 +29,10 @@
 				<a href="" target="_blank"><span class="icon-facebook2"></span></a>
 				<a href="" target="_blank"><span class="icon-instagram"></span></a>
 			</div>
-			<p><a href="contact.html">Sign Up Now</a></p>
+			<p><a href="contact.php">Sign Up Now</a></p>
 		</div>
 		<div id="nav">
-			<h1><a href="about.html">Michele Martin</a></h1>
+			<h1><a href="index.php">Michele Martin</a></h1>
 			<!-- <img src="#" alt="Michele Martin Logo"> -->
 			<div class="navlist">
 				<ul>

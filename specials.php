@@ -15,13 +15,13 @@
 			<div class="special-offers one-half column">
 				<img src="img/specials_product_1.jpg" alt="Insanity Program Image">
 				<h2>Insanity</h2>
-				<p class="special-text">Lorem ipsum dolor sit amet, per id aliquam reformidans efficiantur, autem eirmod omnesque vim at. Numquam neglegentur vim at sea ut, ipsum dolor cu cum nostro nostrud.autem eirmod.</p>
+				<p class="special-text">Forget everything you think you know about high-intensity workouts. Because INSANITY turns old-school interval training on its head.</p>
 				<a href=""><p class="shop">Shop</p></a>
 			</div>
 			<div class="special-offers one-half column">
 				<img src="img/specials_product_2.jpg" alt="P90X3 Program Image">
 				<h2>Insanity</h2>
-				<p class="special-text">Lorem ipsum dolor sit amet, per id aliquam reformidans efficiantur, autem eirmod omnesque vim at. Numquam neglegentur vim at sea ut, ipsum dolor cu cum nostro nostrud.autem eirmod.</p>
+				<p class="special-text">With P90X3, you can jump right in and rock and roll for 30 minutes straight - whether or not you've completed any other exercise program.</p>
 				<a href=""><p class="shop">Shop</p></a>
 			</div>
 
