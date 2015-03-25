@@ -23,7 +23,7 @@
 
 		<div class="section">
 			<p>Let's put together a custom-made plan just for you!</p>
-			<img src="img/lets_do_it.jpg" alt="">
+			<img src="img/home_couple.jpg" alt="">
 		</div>
 
 <?php include('footer.php');?>
