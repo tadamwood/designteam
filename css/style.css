@@ -136,7 +136,8 @@ body {
   background-color: #FDFDFD;
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+  /* About Page Styles */ }
   /* line 20, ../sass/base/_base.scss */
   #container #topbar {
     width: 100%;
@@ -337,7 +338,7 @@ body {
       font-weight: 300; }
   /* line 255, ../sass/base/_base.scss */
   #container #steps {
-    background: #2B2A2C url() no-repeat;
+    background: #2B2A2C url("../img/home_how_it_works.jpg") no-repeat;
     background-color: #2B2A2C;
     color: #FDFDFD;
     width: 100%;
@@ -380,26 +381,28 @@ body {
     /* line 308, ../sass/base/_base.scss */
     #container .section img {
       position: relative;
-      top: 115px; }
-  /* line 317, ../sass/base/_base.scss */
+      top: 115px;
+      height: 470px;
+      width: 800px; }
+  /* line 319, ../sass/base/_base.scss */
   #container .get-started {
     background: url("../img/get_started_hero.jpg") no-repeat;
     background-size: cover; }
-  /* line 322, ../sass/base/_base.scss */
+  /* line 324, ../sass/base/_base.scss */
   #container .coaching {
     background: url("../img/coaching_hero.jpg.") no-repeat;
     background-size: cover; }
-  /* line 327, ../sass/base/_base.scss */
+  /* line 329, ../sass/base/_base.scss */
   #container .contact {
     background: url(../img/contact_hero.jpg) no-repeat;
     background-size: cover; }
-  /* line 332, ../sass/base/_base.scss */
+  /* line 334, ../sass/base/_base.scss */
   #container #get-started {
     position: relative;
     width: 100%;
     height: auto;
     margin-bottom: 5%; }
-    /* line 339, ../sass/base/_base.scss */
+    /* line 341, ../sass/base/_base.scss */
     #container #get-started h1 {
       position: relative;
       font-family: "Bad Script", cursive;
@@ -408,13 +411,13 @@ body {
       text-align: center;
       top: 70px;
       margin-bottom: 125px; }
-    /* line 349, ../sass/base/_base.scss */
+    /* line 351, ../sass/base/_base.scss */
     #container #get-started h2, #container #get-started h3 {
       position: relative;
       font-size: 30px;
       margin-bottom: 10px;
       text-align: center; }
-    /* line 356, ../sass/base/_base.scss */
+    /* line 358, ../sass/base/_base.scss */
     #container #get-started p {
       position: relative;
       color: #2B2A2C;
@@ -422,21 +425,21 @@ body {
       line-height: 1.5;
       margin-top: 40px;
       left: 30%; }
-  /* line 366, ../sass/base/_base.scss */
+  /* line 368, ../sass/base/_base.scss */
   #container .inner-form {
     position: relative;
     height: 530px;
     width: 100%;
     background: url("../img/form_abs.jpg") no-repeat;
     background-size: cover; }
-    /* line 373, ../sass/base/_base.scss */
+    /* line 375, ../sass/base/_base.scss */
     #container .inner-form form {
       top: 60px;
       position: relative;
       width: 50%;
       margin: 0 auto;
       font-family: "Raleway", sans-serif; }
-      /* line 380, ../sass/base/_base.scss */
+      /* line 382, ../sass/base/_base.scss */
       #container .inner-form form input[type="text"] {
         position: relative;
         height: 50px;
@@ -444,7 +447,7 @@ body {
         font-size: 16px;
         border: none;
         border-radius: 0; }
-      /* line 389, ../sass/base/_base.scss */
+      /* line 391, ../sass/base/_base.scss */
       #container .inner-form form textarea {
         position: relative;
         width: 100%;
@@ -455,7 +458,7 @@ body {
         max-width: 100%;
         border: none;
         border-radius: 0; }
-      /* line 401, ../sass/base/_base.scss */
+      /* line 403, ../sass/base/_base.scss */
       #container .inner-form form .help-now {
         position: relative;
         text-align: center;
@@ -463,58 +466,58 @@ body {
         padding: 10px 20px;
         border: 2px solid #A8C73F;
         color: #A8C73F; }
-  /* line 414, ../sass/base/_base.scss */
+  /* line 416, ../sass/base/_base.scss */
   #container #contact {
     position: relative;
     width: 100%;
     height: auto;
     margin-bottom: 5%; }
-    /* line 420, ../sass/base/_base.scss */
+    /* line 422, ../sass/base/_base.scss */
     #container #contact h1 {
       text-align: center;
       font-family: "Bad Script", cursive;
       font-size: 60px;
       color: #A8C73F;
       margin-top: 100px; }
-    /* line 428, ../sass/base/_base.scss */
+    /* line 430, ../sass/base/_base.scss */
     #container #contact .fork {
       position: relative;
       margin-top: 75px; }
-      /* line 432, ../sass/base/_base.scss */
+      /* line 434, ../sass/base/_base.scss */
       #container #contact .fork .fork-trio {
         width: 30%;
         height: 300px;
         border: 1px solid #2B2A2C;
         color: #2B2A2C;
         padding: 50px 20px; }
-        /* line 439, ../sass/base/_base.scss */
+        /* line 441, ../sass/base/_base.scss */
         #container #contact .fork .fork-trio:hover {
           background-color: #A8C73F;
           color: #FDFDFD;
           border: 1px solid #A8C73F; }
-  /* line 450, ../sass/base/_base.scss */
+  /* line 452, ../sass/base/_base.scss */
   #container .specials {
     background: url("../img/specials_hero.jpg") no-repeat;
     background-size: cover; }
-  /* line 455, ../sass/base/_base.scss */
+  /* line 457, ../sass/base/_base.scss */
   #container #bbchallengelogo {
     position: relative;
     left: 45%;
     width: 146px;
     height: 100px; }
-  /* line 462, ../sass/base/_base.scss */
+  /* line 464, ../sass/base/_base.scss */
   #container .special-offers {
     background-color: #ecf0f1;
     margin-bottom: 70px; }
-    /* line 466, ../sass/base/_base.scss */
+    /* line 468, ../sass/base/_base.scss */
     #container .special-offers h2 {
       position: relative;
       padding: 10px; }
-    /* line 471, ../sass/base/_base.scss */
+    /* line 473, ../sass/base/_base.scss */
     #container .special-offers .special-text {
       color: #2B2A2C;
       padding: 10px; }
-    /* line 476, ../sass/base/_base.scss */
+    /* line 478, ../sass/base/_base.scss */
     #container .special-offers .shop {
       position: relative;
       text-align: center;
@@ -524,11 +527,11 @@ body {
       color: #A8C73F;
       float: right;
       right: 20px; }
-    /* line 487, ../sass/base/_base.scss */
+    /* line 489, ../sass/base/_base.scss */
     #container .special-offers img {
       width: 100%;
       height: auto; }
-  /* line 493, ../sass/base/_base.scss */
+  /* line 495, ../sass/base/_base.scss */
   #container .new-stuff {
     position: relative;
     text-align: center;
@@ -538,47 +541,47 @@ body {
     border: 1px solid #A8C73F;
     margin: 0 auto;
     margin-bottom: 70px; }
-  /* line 507, ../sass/base/_base.scss */
+  /* line 509, ../sass/base/_base.scss */
   #container .eat-healthier {
     background: url("../img/eat_healthier_hero.jpg") no-repeat;
     background-size: cover; }
-  /* line 512, ../sass/base/_base.scss */
+  /* line 514, ../sass/base/_base.scss */
   #container .eat-healthier-top {
     position: relative;
     top: 100px;
     width: 100%;
     height: auto;
     margin-bottom: 150px; }
-    /* line 519, ../sass/base/_base.scss */
+    /* line 521, ../sass/base/_base.scss */
     #container .eat-healthier-top h1 {
       position: relative;
       text-align: center;
       font-family: "Bad Script", cursive;
       font-size: 60px;
       color: #A8C73F; }
-    /* line 527, ../sass/base/_base.scss */
+    /* line 529, ../sass/base/_base.scss */
     #container .eat-healthier-top h2 {
       position: relative;
       text-align: center;
       font-family: "Raleway", sans-serif;
       font-size: 30px;
       top: 40px; }
-    /* line 534, ../sass/base/_base.scss */
+    /* line 536, ../sass/base/_base.scss */
     #container .eat-healthier-top .eat-healthier-text {
       position: relative;
       width: 40%;
       left: 30%;
       margin-bottom: 50px;
       margin-top: 100px; }
-      /* line 541, ../sass/base/_base.scss */
+      /* line 543, ../sass/base/_base.scss */
       #container .eat-healthier-top .eat-healthier-text p {
         color: #2B2A2C; }
-    /* line 545, ../sass/base/_base.scss */
+    /* line 547, ../sass/base/_base.scss */
     #container .eat-healthier-top a {
       color: #A8C73F;
       position: relative;
       left: 40%; }
-      /* line 550, ../sass/base/_base.scss */
+      /* line 552, ../sass/base/_base.scss */
       #container .eat-healthier-top a .join-button {
         position: relative;
         color: #A8C73F;
@@ -586,16 +589,16 @@ body {
         width: 300px;
         text-align: center;
         padding: 10px; }
-  /* line 565, ../sass/base/_base.scss */
+  /* line 567, ../sass/base/_base.scss */
   #container .hero-refine {
     background: url("../img/refine_body_hero.jpg") no-repeat;
     background-size: cover; }
-  /* line 570, ../sass/base/_base.scss */
+  /* line 572, ../sass/base/_base.scss */
   #container .center-container {
     position: relative;
     margin: 0 auto;
     width: 50%; }
-    /* line 575, ../sass/base/_base.scss */
+    /* line 577, ../sass/base/_base.scss */
     #container .center-container h1 {
       position: relative;
       font-family: "Bad Script", cursive;
@@ -603,28 +606,28 @@ body {
       font-size: 60px;
       text-align: center;
       margin-top: 100px; }
-    /* line 584, ../sass/base/_base.scss */
+    /* line 586, ../sass/base/_base.scss */
     #container .center-container h2 {
       position: relative;
       font-size: 30px;
       margin-top: 50px;
       color: #2B2A2C;
       text-align: center; }
-    /* line 592, ../sass/base/_base.scss */
+    /* line 594, ../sass/base/_base.scss */
     #container .center-container .refine-para {
       position: relative;
       margin-top: 50px;
       font-size: 20px;
       color: #2B2A2C; }
-    /* line 599, ../sass/base/_base.scss */
+    /* line 601, ../sass/base/_base.scss */
     #container .center-container li {
       list-style-type: disc;
       line-height: 2; }
-    /* line 604, ../sass/base/_base.scss */
+    /* line 606, ../sass/base/_base.scss */
     #container .center-container .flip-container {
       position: relative;
       width: 100%; }
-      /* line 608, ../sass/base/_base.scss */
+      /* line 610, ../sass/base/_base.scss */
       #container .center-container .flip-container .options {
         position: relative;
         width: 49.68%;
@@ -634,25 +637,36 @@ body {
         padding: 10px 0 10px 0;
         border: 1px solid #A8C73F;
         z-index: 100; }
-      /* line 619, ../sass/base/_base.scss */
+      /* line 621, ../sass/base/_base.scss */
       #container .center-container .flip-container #fit-options {
-        background-color: #A8C73F; }
-      /* line 625, ../sass/base/_base.scss */
+        background-color: #A8C73F;
+        color: #FDFDFD; }
+        /* line 626, ../sass/base/_base.scss */
+        #container .center-container .flip-container #fit-options:hover {
+          cursor: pointer; }
+      /* line 632, ../sass/base/_base.scss */
+      #container .center-container .flip-container #nut-options {
+        color: #2B2A2C;
+        background-color: #FDFDFD; }
+        /* line 636, ../sass/base/_base.scss */
+        #container .center-container .flip-container #nut-options:hover {
+          cursor: pointer; }
+      /* line 641, ../sass/base/_base.scss */
       #container .center-container .flip-container #flip-content {
         position: relative;
         top: 38px;
         background: #ecf0f1;
         padding: 30px;
         height: auto; }
-        /* line 632, ../sass/base/_base.scss */
+        /* line 648, ../sass/base/_base.scss */
         #container .center-container .flip-container #flip-content p {
           color: #2B2A2C; }
-      /* line 637, ../sass/base/_base.scss */
+      /* line 653, ../sass/base/_base.scss */
       #container .center-container .flip-container h4 {
         position: relative;
         margin-top: 70px;
         text-align: center; }
-      /* line 643, ../sass/base/_base.scss */
+      /* line 659, ../sass/base/_base.scss */
       #container .center-container .flip-container #watch {
         position: relative;
         width: 200px;
@@ -660,23 +674,79 @@ body {
         padding: 20px 40px;
         text-align: center;
         background-color: #A8C73F; }
-  /* line 661, ../sass/base/_base.scss */
+  /* line 674, ../sass/base/_base.scss */
+  #container .about {
+    background: url("../img/about_hero.jpg") no-repeat;
+    background-size: cover; }
+  /* line 679, ../sass/base/_base.scss */
+  #container #about {
+    position: relative;
+    width: 100%;
+    height: 820px; }
+    /* line 684, ../sass/base/_base.scss */
+    #container #about h1 {
+      position: relative;
+      text-align: center;
+      margin-top: 100px;
+      color: #A8C73F;
+      font-family: "Bad Script", cursive;
+      font-size: 60px; }
+    /* line 693, ../sass/base/_base.scss */
+    #container #about #about-info {
+      position: relative;
+      margin: 50px auto;
+      width: 60%; }
+      /* line 697, ../sass/base/_base.scss */
+      #container #about #about-info img {
+        position: relative;
+        width: 365px;
+        height: 528px;
+        float: left; }
+      /* line 703, ../sass/base/_base.scss */
+      #container #about #about-info h2 {
+        font-size: 30px;
+        color: #2B2A2C;
+        margin-bottom: 30px; }
+      /* line 708, ../sass/base/_base.scss */
+      #container #about #about-info p {
+        color: #2B2A2C; }
+    /* line 713, ../sass/base/_base.scss */
+    #container #about #encouragement {
+      position: relative;
+      height: 670px;
+      width: 100%;
+      background: url("../img/lets_do_it.jpg") no-repeat;
+      background-size: cover; }
+      /* line 720, ../sass/base/_base.scss */
+      #container #about #encouragement p {
+        color: #2B2A2C;
+        text-align: center; }
+    /* line 726, ../sass/base/_base.scss */
+    #container #about #titles {
+      position: relative;
+      height: 300px;
+      width: 50%;
+      margin: 0 auto; }
+      /* line 732, ../sass/base/_base.scss */
+      #container #about #titles h1 {
+        font-size: 30px; }
+  /* line 742, ../sass/base/_base.scss */
   #container #hero {
     height: 400px;
     width: 100%; }
-  /* line 666, ../sass/base/_base.scss */
+  /* line 747, ../sass/base/_base.scss */
   #container .hero-inner {
     position: relative;
     height: 400px;
     width: 100%; }
-  /* line 673, ../sass/base/_base.scss */
+  /* line 754, ../sass/base/_base.scss */
   #container a {
     color: #FDFDFD;
     text-decoration: none; }
-    /* line 677, ../sass/base/_base.scss */
+    /* line 758, ../sass/base/_base.scss */
     #container a:hover {
       color: #A8C73F; }
-  /* line 682, ../sass/base/_base.scss */
+  /* line 763, ../sass/base/_base.scss */
   #container p {
     color: #FDFDFD; }
 

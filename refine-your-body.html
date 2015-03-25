@@ -64,11 +64,11 @@
 				<h3 id="fit-options" class="options">Fitness Options</h3>
 				<h3 id="nut-options" class="options">Nutrition Options</h3>
 				<div id="flip-content">
-					<p id="fit-content">The advantage of working with a personal coach is the expertise of connecting you with the right program to get started in harmony with what your goals are.  You receive ongoing support not only from me but also your Team Beachbody family!  The folks at Beachbody have done the scientific research to bring us fitness options for EVERY type of individual – young and old – beginner or expert.
-
-Online coaching is very successful!  As a Team Beachbody online coach I conduct virtual challenge groups on Facebook.  I have challengers from all over the United States as well as Canada and the Philippines.  Through these challenge groups I provide daily trainer videos and tips, nutrition tips, recipes, motivation and inspiration to keep going.  The rewards are many – and I have made new friends along the way!
-
-I recognize that a lot f you are comfortable going to the gym.  All power to ya’!  I, however, have never been one of them!  I LOVE getting up in the morning, throwing my hair up in a ponytail sans brushing, and 9 times out of 10 not wearing matching workout clothes and working out in my living room!  It works for me.   Working out at home means you can do it on your own time, you don’t have the drive time of going to the gym, and you only need a small amount of floor space and minimal equipment.  I was able to lose over 60 pounds this way!  YOU CAN TOO!</p>
+					<p class="fit-content">The advantage of working with a personal coach is the expertise of connecting you with the right program to get started in harmony with what your goals are.  You receive ongoing support not only from me but also your Team Beachbody family!  The folks at Beachbody have done the scientific research to bring us fitness options for EVERY type of individual – young and old – beginner or expert.</p>
+					<p class="fit-content">
+					Online coaching is very successful!  As a Team Beachbody online coach I conduct virtual challenge groups on Facebook.  I have challengers from all over the United States as well as Canada and the Philippines.  Through these challenge groups I provide daily trainer videos and tips, nutrition tips, recipes, motivation and inspiration to keep going.  The rewards are many – and I have made new friends along the way! </p>
+					<p class="fit-content">
+					I recognize that a lot f you are comfortable going to the gym.  All power to ya’!  I, however, have never been one of them!  I LOVE getting up in the morning, throwing my hair up in a ponytail sans brushing, and 9 times out of 10 not wearing matching workout clothes and working out in my living room!  It works for me.   Working out at home means you can do it on your own time, you don’t have the drive time of going to the gym, and you only need a small amount of floor space and minimal equipment.  I was able to lose over 60 pounds this way!  YOU CAN TOO!</p>
 					<p id="nut-options"></p>
 				</div>
 				<h4>Watch Darin Olien, "The Shakeology Ingredient Hunter" Video Here</h4>
@@ -102,5 +102,15 @@ I recognize that a lot f you are comfortable going to the gym.  All power to ya�
 </div>
 	</div>
 	
+
+	<script>
+		$(document).ready(function(){
+			$("#nut-options").click(function() {
+				$("fit-options p").css('display', 'none');
+				$(this).css('background-color', '$green');
+				$(this).css('color', '$white');
+			});
+		});
+	</script>
 </body>
 </html>

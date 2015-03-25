@@ -8,7 +8,7 @@
 		</div>
 
 		<div id="home-about">
-			<img src="http://placehold.it/200x200" alt="" id="home-about-img">
+			<img src="img/home_profile.jpg" alt="" id="home-about-img">
 			<p>Hi! I’m Michele Martin, and I'm not only a Beachbody coach, buth an avid Team Beachbody member. With my personal experience in the program, I have sculpted myself into the healthier and fit person that I see today. I am here to help you find success in becoming healthier through nutrition and exercise, and in turn, find the better version of yourself that you've been searching for.</p>
 		</div>
 
@@ -23,7 +23,7 @@
 
 		<div class="section">
 			<p>Let's put together a custom-made plan just for you!</p>
-			<img src="http://placehold.it/800x470" alt="">
+			<img src="img/lets_do_it.jpg" alt="">
 		</div>
 
 <?php include('footer.php');?>
