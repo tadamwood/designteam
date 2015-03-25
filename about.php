@@ -1,7 +1,7 @@
-
+<?php include('header.php');?>
 
 		<div class="hero-inner about"></div>
-<?php include('header.php');?>
+
 		<div id="about">
 			<h1>About</h1>
 
