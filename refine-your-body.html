@@ -61,15 +61,19 @@
 
 			<!-- Flip options based on click -->
 			<div class="flip-container">
-				<h3 id="fit-options" class="options">Fitness Options</h3>
-				<h3 id="nut-options" class="options">Nutrition Options</h3>
-				<div id="flip-content">
-					<p class="fit-content">The advantage of working with a personal coach is the expertise of connecting you with the right program to get started in harmony with what your goals are.  You receive ongoing support not only from me but also your Team Beachbody family!  The folks at Beachbody have done the scientific research to bring us fitness options for EVERY type of individual – young and old – beginner or expert.</p>
+				<h3 class="options is-active">Fitness Options</h3>
+				<h3 class="options">Nutrition Options</h3>
+				<div class="options-content is-active">
+					<p class="fit-content">As a Team Beachbody online coach, I conduct virtual challenge groups on Facebook. I have challengers from all over the country, as well as Canada and the Philippines. Through these challenge groups I provide daily trainer videos, nutrition tips, recipes, and the motivation and inspiration to keep going.</p>
 					<p class="fit-content">
-					Online coaching is very successful!  As a Team Beachbody online coach I conduct virtual challenge groups on Facebook.  I have challengers from all over the United States as well as Canada and the Philippines.  Through these challenge groups I provide daily trainer videos and tips, nutrition tips, recipes, motivation and inspiration to keep going.  The rewards are many – and I have made new friends along the way! </p>
+					 You don’t have to go to the gym to make this program work for you – you can work out at home. Working out at home means you can do it on your own time; you don’t have the drive time of going to the gym; and you only need a small amount of floor space and minimal equipment.</p>
+				</div>
+
+				<div class="options-content">
 					<p class="fit-content">
-					I recognize that a lot f you are comfortable going to the gym.  All power to ya’!  I, however, have never been one of them!  I LOVE getting up in the morning, throwing my hair up in a ponytail sans brushing, and 9 times out of 10 not wearing matching workout clothes and working out in my living room!  It works for me.   Working out at home means you can do it on your own time, you don’t have the drive time of going to the gym, and you only need a small amount of floor space and minimal equipment.  I was able to lose over 60 pounds this way!  YOU CAN TOO!</p>
-					<p id="nut-options"></p>
+					Beachbody offers a meal planner that is included with a Club Membership called the Meal Plan Wizard.  I have used it for a couple of years now because of its simplicity. The program comes up with a meal plan designed just for you and your health and fitness goals.  It tells you what to eat, how to prepare it, and when to eat it! </p>
+					<p class="fit-content">
+					Incorporating Shakeology into my daily health and wellness regimen helped me succeed in my own personal fitness plan. I encourage you to try this once-a-day meal replacement.  It isn’t a protein or diet shake. It is simple a meal replacement shake that is all natural – no additives or sweeteners. Shakeology shakes assist the body in absorbing the good foods you eat and safely and efficiently eliminating the bad toxic stuff. When I started my challenge pack, I began drinking the shakes once a day and following the meal planner. It has helped me get to where I am today. Shakeology is well worth the investment in myself and has given me a new lease on life!</p>
 				</div>
 				<h4>Watch Darin Olien, "The Shakeology Ingredient Hunter" Video Here</h4>
 				<a href=""><p id="watch">Watch the Video</p></a>
@@ -102,15 +106,19 @@
 </div>
 	</div>
 	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 
 	<script>
 		$(document).ready(function(){
-			$("#nut-options").click(function() {
-				$("fit-options p").css('display', 'none');
-				$(this).css('background-color', '$green');
-				$(this).css('color', '$white');
-			});
+			function changeTab() {
+				$(".options").click(function() {
+					$(".options").toggleClass("is-active");
+					$(".options-content").toggleClass("is-active");
+				});
+			};
+			changeTab();
 		});
+			
 	</script>
 </body>
 </html>

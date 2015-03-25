@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Bad+Script|Raleway:500,700,400,300);
-/* line 5, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,38 +21,38 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
@@ -641,37 +641,34 @@ body {
         text-align: center;
         padding: 10px 0 10px 0;
         border: 1px solid #A8C73F;
-        z-index: 100; }
-      /* line 627, ../sass/base/_base.scss */
-      #container .center-container .flip-container #fit-options {
-        background-color: #A8C73F;
-        color: #FDFDFD; }
-        /* line 632, ../sass/base/_base.scss */
-        #container .center-container .flip-container #fit-options:hover {
-          cursor: pointer; }
-      /* line 638, ../sass/base/_base.scss */
-      #container .center-container .flip-container #nut-options {
+        z-index: 100;
+        background: #FDFDFD;
         color: #2B2A2C;
-        background-color: #FDFDFD; }
-        /* line 642, ../sass/base/_base.scss */
-        #container .center-container .flip-container #nut-options:hover {
-          cursor: pointer; }
-      /* line 647, ../sass/base/_base.scss */
-      #container .center-container .flip-container #flip-content {
+        cursor: pointer; }
+        /* line 628, ../sass/base/_base.scss */
+        #container .center-container .flip-container .options.is-active {
+          background-color: #A8C73F !important;
+          color: #FDFDFD !important; }
+      /* line 634, ../sass/base/_base.scss */
+      #container .center-container .flip-container .options-content {
+        display: none;
         position: relative;
         top: 38px;
         background: #ecf0f1;
         padding: 30px;
         height: auto; }
-        /* line 654, ../sass/base/_base.scss */
-        #container .center-container .flip-container #flip-content p {
+        /* line 642, ../sass/base/_base.scss */
+        #container .center-container .flip-container .options-content p {
           color: #2B2A2C; }
-      /* line 659, ../sass/base/_base.scss */
+        /* line 646, ../sass/base/_base.scss */
+        #container .center-container .flip-container .options-content.is-active {
+          display: block !important; }
+      /* line 651, ../sass/base/_base.scss */
       #container .center-container .flip-container h4 {
         position: relative;
         margin-top: 70px;
         text-align: center; }
-      /* line 665, ../sass/base/_base.scss */
+      /* line 657, ../sass/base/_base.scss */
       #container .center-container .flip-container #watch {
         position: relative;
         width: 200px;
@@ -679,16 +676,16 @@ body {
         padding: 20px 40px;
         text-align: center;
         background-color: #A8C73F; }
-  /* line 680, ../sass/base/_base.scss */
+  /* line 672, ../sass/base/_base.scss */
   #container .about {
     background: url("../img/about_hero.jpg") no-repeat;
     background-size: cover; }
-  /* line 685, ../sass/base/_base.scss */
+  /* line 677, ../sass/base/_base.scss */
   #container #about {
     position: relative;
     width: 100%;
     height: 820px; }
-    /* line 690, ../sass/base/_base.scss */
+    /* line 682, ../sass/base/_base.scss */
     #container #about h1 {
       position: relative;
       text-align: center;
@@ -696,73 +693,73 @@ body {
       color: #A8C73F;
       font-family: "Bad Script", cursive;
       font-size: 60px; }
-    /* line 699, ../sass/base/_base.scss */
+    /* line 691, ../sass/base/_base.scss */
     #container #about #about-info {
       position: relative;
       margin: 50px auto;
       width: 60%; }
-      /* line 703, ../sass/base/_base.scss */
+      /* line 695, ../sass/base/_base.scss */
       #container #about #about-info img {
         position: relative;
         width: 365px;
         height: 528px;
         float: left; }
-      /* line 709, ../sass/base/_base.scss */
+      /* line 701, ../sass/base/_base.scss */
       #container #about #about-info h2 {
         font-size: 30px;
         color: #2B2A2C;
         margin-bottom: 30px; }
-      /* line 714, ../sass/base/_base.scss */
+      /* line 706, ../sass/base/_base.scss */
       #container #about #about-info p {
         color: #2B2A2C; }
-  /* line 722, ../sass/base/_base.scss */
+  /* line 714, ../sass/base/_base.scss */
   #container #encouragement {
     position: relative;
     height: 670px;
     width: 100%;
     background: url("../img/lets_do_it.jpg") no-repeat;
     background-size: cover; }
-    /* line 729, ../sass/base/_base.scss */
+    /* line 721, ../sass/base/_base.scss */
     #container #encouragement p {
       position: relative;
       top: 200px;
       color: #2B2A2C;
       font-size: 20px;
       text-align: center; }
-  /* line 738, ../sass/base/_base.scss */
+  /* line 730, ../sass/base/_base.scss */
   #container #titles {
     position: relative;
     height: 200px;
     width: 20%;
     margin: 50px auto; }
-    /* line 744, ../sass/base/_base.scss */
+    /* line 736, ../sass/base/_base.scss */
     #container #titles h1 {
       font-size: 30px;
       text-align: center; }
-    /* line 749, ../sass/base/_base.scss */
+    /* line 741, ../sass/base/_base.scss */
     #container #titles ul {
       position: relative;
       margin-top: 20px; }
-      /* line 752, ../sass/base/_base.scss */
+      /* line 744, ../sass/base/_base.scss */
       #container #titles ul li {
         list-style-type: disc; }
-  /* line 762, ../sass/base/_base.scss */
+  /* line 754, ../sass/base/_base.scss */
   #container #hero {
     height: 400px;
     width: 100%; }
-  /* line 767, ../sass/base/_base.scss */
+  /* line 759, ../sass/base/_base.scss */
   #container .hero-inner {
     position: relative;
     height: 400px;
     width: 100%; }
-  /* line 774, ../sass/base/_base.scss */
+  /* line 766, ../sass/base/_base.scss */
   #container a {
     color: #FDFDFD;
     text-decoration: none; }
-    /* line 778, ../sass/base/_base.scss */
+    /* line 770, ../sass/base/_base.scss */
     #container a:hover {
       color: #A8C73F; }
-  /* line 783, ../sass/base/_base.scss */
+  /* line 775, ../sass/base/_base.scss */
   #container p {
     color: #FDFDFD; }
 
